@@ -25,10 +25,7 @@
                 </div>
 
                 <div class="field">
-                    <label for="phone" class="label">
-                        @lang('pages.home.phone')
-                        <span class="has-text-grey has-text-weight-light">+{1}(000)000-00-00</span>
-                    </label>
+                    <label for="phone" class="label">@lang('pages.home.phone')</label>
                     <div class="control">
                         <input
                                 id="phone"

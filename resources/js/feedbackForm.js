@@ -5,7 +5,7 @@ const phoneInput = document.getElementById('phone');
 
 if (phoneInput !== null) {
   const maskOptions = {
-    mask: '+{1}(000)000-00-00'
+    mask: '+000000000000000',
   };
 
   IMask(phoneInput, maskOptions);
