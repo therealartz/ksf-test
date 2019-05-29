@@ -38,6 +38,10 @@ final class NumValidateService implements PhoneValidationServiceInterface
             throw new PhoneValidationException($exception->getMessage());
         }
 
+        if (array_key_exists('error', $result)) {
+            throw new PhoneValidationException($result['error']['info']);
+        }
+
         return $result['valid'];
     }
 }
