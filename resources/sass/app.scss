@@ -4,6 +4,10 @@
 // Bulma framework
 @import '~bulma/bulma';
 
+// Libraries
+@import "~noty/src/noty";
+@import "~noty/src/themes/metroui";
+
 html, body {
   margin: 0;
   padding: 0;
